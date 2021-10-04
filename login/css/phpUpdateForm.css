@@ -1,0 +1,147 @@
+@font-face {
+    font-family: OpenSans-Regular;
+    src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
+}
+  
+body {
+      height: 100%;
+      font-family: sans-serif;
+      margin: 0;
+}
+
+.test{
+    top: 0;
+    position:fixed;
+    z-index:1;
+    width: 100%;
+    background: #edc509;
+}
+
+.img{
+    align-items: left;
+    position:relative;
+    z-index: 5;
+    width: 10%;
+    height: 10%;
+}
+
+h1 {   
+     color:#ffffff ;
+     font-family:"Segoe UI",Arial,sans-serif;
+     font-weight:400;
+}
+
+h2,h3,h4,h5,h6 {margin: 0px;}
+  
+ul, li {
+      margin: 0px;
+      list-style-type: none;
+}
+  
+textarea:focus, input:focus {
+    border-color: transparent !important;
+}
+  
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: #1c0a29;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+}
+table * {
+    position: relative;
+}
+table td, table th {
+    padding-left: 8px;
+}
+table thead tr {
+    height: 60px;
+    background: #1c0a29;
+}
+table tbody tr {
+    height: 50px;
+}
+table tbody tr:last-child {
+    border: 0;
+}
+table td, table th {
+    text-align: center;
+}
+
+table td.c, table th.c {
+    text-align: center;
+}
+table td.r, table th.r {
+    text-align: center;
+}
+  
+  
+tbody tr:nth-child(even) {
+    background-color: #331b45;
+}
+  
+tbody tr {
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #edc509;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+  
+.column1 {
+    width: 260px;
+    padding-left: 40px;
+}
+  
+  
+@media screen and (max-width: 992px) {
+
+table thead {
+      display: none;
+}
+
+table tbody tr {
+      height: auto;
+      padding: 37px 0;
+}
+
+table tbody tr td {
+      padding-left: 40% !important;
+      margin-bottom: 24px;
+}
+
+table tbody tr td:last-child {
+      margin-bottom: 0;
+}
+
+table tbody tr td:before {
+      font-family: OpenSans-Regular;
+      font-size: 14px;
+      line-height: 1.2;
+      font-weight: unset;
+      position: absolute;
+      width: 40%;
+      left: 30px;
+      top: 0;
+}  
+
+tbody tr {
+      font-size: 14px;
+    }
+}
+
+body {
+  background-color: #13061c;
+}
+
+.ref-center{text-align:center!important}
+
+.ref-opacity,.ref-hover-opacity:hover{opacity:0.60}
+
+
+
