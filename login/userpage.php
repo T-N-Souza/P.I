@@ -3,6 +3,12 @@
 use function PHPSTORM_META\type;
 
 session_start();
+
+if(isset($_REQUEST['logout'])){
+	session_destroy();
+	header("Location: login.php");
+	exit();
+}
 ?>
 
 <!DOCTYPE html>
@@ -30,6 +36,7 @@ session_start();
 					<tr class="form">
 						<th>Situação</th>
 						<th>Prazo</th>
+						<th>Informações Adicionais</th>
 					</tr> <br>
 					<?php 
 					$connection = mysqli_connect("localhost","root","");
@@ -46,13 +53,19 @@ session_start();
 							<tr>
 								<td class="ref-sit"> <?php echo $row['situacao'];?></td>
 								<td class="ref-pra"> <?php echo $row['prazo'];?></td>
+								<td class="ref-pra"> <?php echo $row['adinfo'];?></td>
 							</tr>
 
 							<?php
 						}
 					}
+					
 					?>
 				</table>
+				
+				<form method="POST" class="text-center-change">
+            		<button class="btn btn-danger" name="logout">Logout</button>
+        			</form>
 </center>
 </body>
 </html>
