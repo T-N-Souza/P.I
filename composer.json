@@ -1,13 +1,1 @@
-{
-    "name": "sas",
-    "description": "Acompanhar o serviço de manutenção que está sendo feito na máquina do cliente",
-    "authors": [
-        {
-            "name": "Thainan Nascimento de Souza",
-            "email": "Thainancontato@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.2.8"
-    }
-}
+{}
