@@ -21,7 +21,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     <a href="login.php" class="ref-bar-item ref-button ref-padding-large ref-white">Login</a>
     <a href="https://www.si-informatica.com/" class="ref-bar-item ref-button ref-hide-small ref-padding-large ref-hover-white">Compras</a>
-    <a href="#" class="ref-bar-item ref-button ref-hide-small ref-padding-large ref-hover-white">Contato</a>
+    <a href="contacts.html" class="ref-bar-item ref-button ref-hide-small ref-padding-large ref-hover-white">Contato</a>
   </div>
 
   <!-- Navbar on small screens -->
