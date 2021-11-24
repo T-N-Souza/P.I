@@ -1,14 +1,15 @@
 <?php
 
-$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-$cleardb_server = $cleardb_url["us-cdbr-east-04.cleardb.com"];
-$cleardb_username = $cleardb_url["baf02859747692"];
-$cleardb_password = $cleardb_url["f669dbe0"];
-$cleardb_db = substr($cleardb_url["path"],1);
+$dbhost = "us-cdbr-east-04.cleardb.com";
+$dbuser = "b0c7cb660f5afa";
+$dbpass = "52082f75";
+$dbname = "heroku_78b565be909bd5f";
 $active_group = 'default';
 $query_builder = TRUE;
+
 // Connect to DB
-$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+
+if(!$con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname))
 {
 
 	die("failed to connect!");
