@@ -31,6 +31,7 @@
         <th>Nº Ordem de Serviço</th>
         <th>Situação</th>
         <th>Prazo</th>
+        <th>Informações Adicionais</th>
     </tr>
     <?php 
     while($row = mysqli_fetch_array($records)){
@@ -38,8 +39,9 @@
         echo "<td><input type=text name=serv value='".$row['servico']."'></td>";
         echo "<td><input type=text name=situ value='".$row['situacao']."'></td>";
         echo "<td><input type=text name=pra value='".$row['prazo']."'></td>";
+        echo "<td><input type=text name=inf value='".$row['adinfo']."'></td>";
         echo "<input type=hidden name=id value='".$row['id']."'>";
-        echo "<td><input type=submit value='Submit'>";
+        echo "<td><input type=submit value='Atualizar'>";
         echo "</form></tr>";
     }
         

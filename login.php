@@ -84,7 +84,7 @@ session_start();
 
 					<div class="wrap-input100 validate-input" data-validate = "Coloque um E-mail válido (@gmail, hotmail, outlook)">
 						<input class="input100" type="text" name="user_name">
-						<span class="focus-input100" data-placeholder="Email"></span>
+						<span class="focus-input100" data-placeholder="Usuário"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Digite sua senha.">

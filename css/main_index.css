@@ -61,7 +61,7 @@ hr{
     outline:0
 }
 
-.ref-container:after,.ref-container:before,.ref-panel:after,.ref-panel:before,.ref-row:after,.ref-row:before,.ref-row-padding:after,.ref-row-padding:before, .ref-cell-row:before,.ref-cell-row:after,.ref-clear:after,.ref-clear:before,.ref-bar:before,.ref-bar:after{content:"";display:table;clear:both}
+.ref-container:after,.ref-container:before,.ref-panel:after,.ref-panel:before,.ref-row:after,.ref-row:before,.ref-row-padding:after,.ref-row-padding:before, .ref-cell-row:before,.ref-cell-row:after,.ref-clear:after,.ref-clear:before,.ref-bar:before,.ref-bar:after{content:"";display:table;clear:both;}
 
 .ref-col,.ref-half,.ref-third,.ref-twothird,.ref-threequarter,.ref-quarter{
     float:left;
@@ -114,7 +114,7 @@ hr{
 
 .ref-justify{text-align:justify!important}
 
-.ref-center{text-align:center!important}
+.ref-center{text-align:center!important;}
 
 .ref-margin{margin:16px!important}
 
