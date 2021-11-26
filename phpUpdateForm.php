@@ -10,13 +10,13 @@
 	</div>
         <?php 
             include("update.php");
-            $dbhost = "localhost";
-            $dbuser = "root";
-            $dbpass = "";
-            $dbname = "login_sample_db";
+            $dbhost = "us-cdbr-east-04.cleardb.com";
+            $dbuser = "b0c7cb660f5afa";
+            $dbpass = "52082f75";
+            $dbname = "heroku_78b565be909bd5f";
 
             $con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
-            mysqli_select_db($con, 'login_sample_db');
+            mysqli_select_db($con, 'heroku_78b565be909bd5f');
             $sql = "SELECT * FROM users";
             $records = mysqli_query($con, $sql);
 

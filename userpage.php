@@ -39,8 +39,8 @@ if(isset($_REQUEST['logout'])){
 						<th>Informações Adicionais</th>
 					</tr> <br>
 					<?php 
-					$connection = mysqli_connect("localhost","root","");
-					$db = mysqli_select_db($connection, "login_sample_db");
+					$connection = mysqli_connect("us-cdbr-east-04.cleardb.com","b0c7cb660f5afa","52082f75");
+					$db = mysqli_select_db($connection, "heroku_78b565be909bd5f");
 
 					if(isset($_POST['search'])){
 						$servico = $_POST['servico'];
